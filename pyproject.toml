@@ -1,0 +1,13 @@
+[project]
+name = "inijson"
+version = "1.0.0"
+description = "An INI/JSON configuration format converter"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+inijson = "inijson.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
