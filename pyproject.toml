@@ -1,0 +1,21 @@
+[project]
+name = "inijson"
+version = "1.2.0"
+readme = "README.md"
+description = "An INI/JSON configuration format converter"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+inijson = "inijson.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["inijson_pkg"]
+
+[project.urls]
+Homepage = "https://github.com/NightOwlDevelopers/inijson"
+Repository = "https://github.com/NightOwlDevelopers/inijson"
